@@ -2,7 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    background: url('/images/vuln.jpeg') no-repeat;
+    background: url('../images/vuln.jpeg') no-repeat;
     background-size: cover;
 }
 
