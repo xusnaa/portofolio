@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wifi.css">
+</head>
+<body>
+    
+    <div class="item">
+        <div class="content">
+            <div class="name">Wifi Scan</div>
+            <div class="des">Creating a Wireless Network Security Analyzer involves interacting with Wi-Fi networks, analyzing their security configurations, and identifying potential vulnerabilities.</div>
+            <button class="open-modal-btn" onclick="openModal('modal1', 'wifi1.jpg')">View Code</button>
+            <button class="open-modal-btn" onclick="openModal('modal1', 'wifi2.jpg')">View output</button>
+        </div>
+        <div class="content2">
+            <div class="name">Steps to follow</div>
+            <div class="des">1. Wi-Fi Interactions: Capture and analyze Wi-Fi traffic using tools like scapy to understand network behavior.<br><br>
+                2. Security Configurations Analysis: Examine security configurations, including encryption protocols and authentication methods.<br><br>
+                3. Vulnerability Identification: Identify potential vulnerabilities such as weak passwords, outdated encryption, or misconfigurations.<br><br>
+                4. Report Generation: Generate a comprehensive report outlining security findings and recommendations for network improvement.
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal1" class="modal">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="wifi.js"></script>
+</body>
+</html>
