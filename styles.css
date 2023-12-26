@@ -235,7 +235,7 @@ span{
 
 #contact{
     padding: 5rem;
-    background:url(/images/galaxy.webp) ;
+    background:url(images/galaxy.webp) ;
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
@@ -360,7 +360,7 @@ span{
 
 
 .Pcard{
-    background-image: url('/images/saas.jpg');
+    background-image: url('images/saas.jpg');
     
     background-size: cover;
     margin: 10px;
@@ -372,7 +372,7 @@ span{
 
 
 .Pcard2{
-    background-image: url('/images/cybersecurity.webp');
+    background-image: url('images/cybersecurity.webp');
     
     background-size: cover;
     display: flex;
