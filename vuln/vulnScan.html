@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vuln.css">
+</head>
+<body>
+    
+    <div class="item">
+        <div class="content">
+            <div class="name">Vulnerability Scan</div>
+            <div class="des">Develop a vulnerability scanner that identifies security weaknesses in a given system . This can include checks for outdated software, misconfigurations, and common vulnerabilities.</div>
+            <button class="open-modal-btn" onclick="openModal('modal1', 'vuln.jpg')">View Code</button>
+            <button class="open-modal-btn" onclick="openModal('modal1', 'vuln2.jpg')">View output</button>
+        </div>
+        <div class="content2">
+            <div class="name">Steps to follow</div>
+            <div class="des">1. System Discovery: Identify system components using tools like Nmap for active network reconnaissance.<br><br>
+                2. Vulnerability Identification: Use automated tools (e.g., Nessus, OpenVAS) to scan for outdated software, known vulnerabilities, and misconfigurations..<br><br>
+                3.Configuration Analysis: Analyze system configurations for weak passwords, unnecessary open ports, and security settings..<br><br>
+                4. Report Generation:Generate detailed reports with identified vulnerabilities, severity levels, and remediation recommendations.
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal1" class="modal">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="vuln.js"></script>
+</body>
+</html>
